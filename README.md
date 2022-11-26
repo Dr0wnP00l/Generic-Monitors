@@ -9,6 +9,9 @@ I reccomend starting vpn connection in the same order
 sudo apt install xfce4-genmon-plugin
 
 # Add generic montior to your panel
+-Right click panel > Panel > Add New Items
+-Search Generic Monitor >add
+-Right click Generic Monitor and move to next step 
 
 # In Command, type the following (gives tun0). In label, add a space then write either HTB ip: or THM ip:
 sh -c 'ip a | awk "/tun0\$/{gsub(/\/.*/, \"\"); print \$2}"'
