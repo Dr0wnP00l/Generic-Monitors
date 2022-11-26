@@ -1,7 +1,6 @@
-### IP Monitor
-
-## Whatever openvpn connection you start first, will be tun0 then tun1
-## I reccomend starting vpn connection in the same order
+## IP Monitor
+ Whatever openvpn connection you start first, will be tun0 then tun1
+I reccomend starting vpn connection in the same order
 
 
 
