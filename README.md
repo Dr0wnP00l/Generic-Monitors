@@ -7,7 +7,9 @@ I reccomend starting vpn connection in the same order
 
 # Make sure generic monitor is installed
 
-sudo apt install xfce4-genmon-plugin
+<ul>
+ <li>sudo apt install xfce4-genmon-plugin</li>
+</ul>
 
 # Add generic montior to your panel
 <ol>
@@ -16,12 +18,17 @@ sudo apt install xfce4-genmon-plugin
  <li>Right click Generic Monitor and move to next step </li>
 </ol>
 
-#Add Script 
+# Add Script 
 In Command, type the following (gives tun0). In label, add a space then write either HTB ip: or THM ip:
-<ul><li>sh -c 'ip a | awk "/tun0\$/{gsub(/\/.*/, \"\"); print \$2}"'</li></ul>
-<br><br>
+<ul>
+ <li>sh -c 'ip a | awk "/tun0\$/{gsub(/\/.*/, \"\"); print \$2}"'</li>
+</ul>
+<br>
+<br>
 Create another monitor with a separator before (between your last generic monitor and new one)
 
-#Add second Script
+# Add second Script
 In command, type the following (gives tun1). Label with the other label name.
-<ul><li>sh -c 'ip a | awk "/tun1\$/{gsub(/\/.*/, \"\"); print \$2}"'</li></ul>
+<ul>
+ <li>sh -c 'ip a | awk "/tun1\$/{gsub(/\/.*/, \"\"); print \$2}"'</li>
+</ul>
