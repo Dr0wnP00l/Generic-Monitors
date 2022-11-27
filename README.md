@@ -30,7 +30,7 @@ In Label Box:
  <li>THM:</li>
 </ul>
 <br>
-*Create another monitor with a separator before (between your last generic monitor and new one)*
+_Create another monitor with a separator before (between your last generic monitor and new one)_
 
 ## Add second Script
 In command, type the following (gives tun1).
